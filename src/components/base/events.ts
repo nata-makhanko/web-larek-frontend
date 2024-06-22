@@ -4,7 +4,7 @@ type EventName = string | RegExp;
 type Subscriber = Function;
 type EmitterEvent = {
     eventName: string,
-    data: unknown
+    data: unknown 
 };
 
 export interface IEvents {
